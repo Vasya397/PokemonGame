@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin: 2.5%;
+    padding: 1%;
+}
+.line{
+    padding: 4%;
+    padding-top: 6%;
+    margin-left: auto;
+}
+
+.slotText{
+    font-size: 35px;
+    color: #FFCC01;
+    -webkit-text-stroke: 1.5px #365FAC;
+    font-weight: 750;
+    margin: 1%;
+}

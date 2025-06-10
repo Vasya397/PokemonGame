@@ -1,0 +1,12 @@
+.container{
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin: 1%;
+    padding: 1%;
+    flex: 1
+}
+
+.inputField{
+    width: 100%;
+    margin-top: 4%;
+}

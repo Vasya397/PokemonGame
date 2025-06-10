@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin: 2.5%;
+    padding: 1%;
+    min-height: 50vh;
+}

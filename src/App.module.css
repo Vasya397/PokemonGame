@@ -1,0 +1,10 @@
+.App {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 1%;
+}
+.container{
+  display: flex;
+  margin-top: 3%;
+}

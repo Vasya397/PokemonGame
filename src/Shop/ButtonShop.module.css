@@ -1,0 +1,9 @@
+.buttonShop{
+    width: 100%;
+    height: 4vh;
+    margin-top: 2%;
+    background-color: #365FAC;
+    color: white; 
+    border: #365FAC;
+    border-radius: 2px;
+}

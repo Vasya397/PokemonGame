@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 1%;
+}
+
+.logoMoney{
+    margin-left: auto; 
+    padding-top: 2%;
+}
+
+.money{
+    font-size: 30px; 
+    color: #FFCC01;
+     -webkit-text-stroke: 1.5px #365FAC;
+    font-weight: 750;
+    padding: 1.3%;
+}
