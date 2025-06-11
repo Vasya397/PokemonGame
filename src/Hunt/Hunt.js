@@ -1,5 +1,6 @@
 import styled2 from "../MyPokemons/MyPokemons.module.css"
 import styled from "./Hunt.module.css"
+import myImage5 from "../img/image5.png"
 
 export function Hunt() {
   return (
@@ -8,7 +9,7 @@ export function Hunt() {
             Hunt
         </div>
         <div className={styled2.line}> 
-            <img src="./image5.png" alt='5' ></img>
+            <img src={myImage5} alt='5' ></img>
         </div>
     </div> 
   )

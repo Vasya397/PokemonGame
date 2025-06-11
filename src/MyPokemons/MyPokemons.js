@@ -1,4 +1,5 @@
 import styled from "./MyPokemons.module.css"
+import myImage5 from "../img/image5.png"
 
 export function MyPokemons() {
   return (
@@ -7,7 +8,7 @@ export function MyPokemons() {
             My Pokemons
         </div>
         <div className={styled.line}> 
-            <img src="./image5.png" alt='5' ></img>
+            <img src={myImage5} alt='5' ></img>
         </div>
     </div> 
   )

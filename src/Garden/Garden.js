@@ -1,4 +1,5 @@
 import styled from "../MyPokemons/MyPokemons.module.css"
+import myImage5 from "../img/image5.png"
 
 export function Garden() {
   return (
@@ -7,8 +8,9 @@ export function Garden() {
             Garden
         </div>
         <div className={styled.line}> 
-            <img src="./image5.png" alt='5' ></img>
+            <img src={myImage5} alt='5' ></img>
         </div>
     </div> 
   )
 }
+
