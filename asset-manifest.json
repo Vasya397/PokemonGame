@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PokemonGame/static/css/main.80c1ce25.css",
-    "main.js": "/PokemonGame/static/js/main.98075b32.js",
+    "main.css": "/PokemonGame/static/css/main.b070c831.css",
+    "main.js": "/PokemonGame/static/js/main.cdc217f9.js",
     "static/js/453.88548d40.chunk.js": "/PokemonGame/static/js/453.88548d40.chunk.js",
     "static/media/image1.png": "/PokemonGame/static/media/image1.f18d0bffe2cd981bfff0.png",
     "static/media/image2.png": "/PokemonGame/static/media/image2.e5e21cdff4e0c73c256a.png",
     "index.html": "/PokemonGame/index.html",
-    "main.80c1ce25.css.map": "/PokemonGame/static/css/main.80c1ce25.css.map",
-    "main.98075b32.js.map": "/PokemonGame/static/js/main.98075b32.js.map",
+    "main.b070c831.css.map": "/PokemonGame/static/css/main.b070c831.css.map",
+    "main.cdc217f9.js.map": "/PokemonGame/static/js/main.cdc217f9.js.map",
     "453.88548d40.chunk.js.map": "/PokemonGame/static/js/453.88548d40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80c1ce25.css",
-    "static/js/main.98075b32.js"
+    "static/css/main.b070c831.css",
+    "static/js/main.cdc217f9.js"
   ]
 }
