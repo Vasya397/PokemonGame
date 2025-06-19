@@ -17,7 +17,7 @@ export function Pokemon(props) {
         <img src={myImage10}></img>
       </div>
       <div className={styled.specifications}>
-        <div> 
+        <div className={styled.textPokemon}> 
           Вес:
         </div>
         <div> 
@@ -25,7 +25,7 @@ export function Pokemon(props) {
         </div>
       </div>
       <div className={styled.specifications}>
-        <div> 
+        <div className={styled.textPokemon}> 
           Денег/сек:
         </div>
         <div> 

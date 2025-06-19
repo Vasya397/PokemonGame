@@ -27,6 +27,9 @@
 
 .specifications{
     display: flex;
-    font-weight: bold;
     justify-content: space-between;
+}
+
+.textPokemon{
+    font-weight: bold;
 }

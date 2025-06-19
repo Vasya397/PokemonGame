@@ -21,7 +21,7 @@ export function Hunt() {
         </div>
       </div>
       <div className={isOpen ? styledSecondary.dropDown : ""}> 
-        Пчел тыыыыыыыыы
+        Скоро контент
       </div>
     </div> 
   )

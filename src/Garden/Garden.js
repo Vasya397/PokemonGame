@@ -21,7 +21,7 @@ export function Garden() {
           </div>
       </div>
       <div className={isOpen ? styledPokemons.dropDown : ""}> 
-        пустота
+        Тут тоже скоро будет контент
       </div>
     </div> 
   )
