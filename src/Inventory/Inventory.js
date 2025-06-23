@@ -1,15 +1,21 @@
 import styled from "./Inventory.module.css"
 import { ButtonMoney } from "./ButtonMoney";
 import { useState } from "react";
+import { useDispatch, useSelector } from 'react-redux'
 
 const arrPokemons = ["", "", "", ""]
 
 export function Inventory() {
 
-  const [arr, setArr] = useState([...arrPokemons]); 
+  const dispatch = useDispatch();
 
+
+  const [arr, setArr] = useState([...arrPokemons]); 
+  
   const buySlot = () => {
     setArr([...arr, ""]);
+
+    dispatch({type: "MINUS_BALANCE", payload: 1000})
   };
 
   return ( 
@@ -20,7 +26,7 @@ export function Inventory() {
                 <div key={index} className={styled.slot1X1}> {slot} </div> 
             ))}
           </div>
-      <ButtonMoney onBuySlot={buySlot}/>  
+      <ButtonMoney buySlot={buySlot}/>  
     </div>
   )
 }

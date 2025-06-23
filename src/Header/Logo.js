@@ -25,7 +25,7 @@ export function Logo() {
     dispatch({type: "PLUS_BALANCE", payload: 1000})
   }
 
-  const minusCash = () => {
+    const minusCash = () => {
     dispatch({type: "MINUS_BALANCE", payload: 1000})
   }
 
