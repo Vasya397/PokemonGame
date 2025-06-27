@@ -1,36 +1,36 @@
 .baseContainer {
-    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
-    border-radius: 16px;
-    margin: 2.5%;
-    padding: 1%;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin: 2.5%;
+  padding: 1%;
 }
 
-.container{
-    display: flex;
+.container {
+  display: flex;
 }
 
-.line{
-    padding: 4%;
-    padding-top: 6%;
-    margin-left: auto;
+.line {
+  padding: 4%;
+  padding-top: 6%;
+  margin-left: auto;
 }
 
-.slotText{
-    font-size: 35px;
-    color: #FFCC01;
-    -webkit-text-stroke: 1.5px #365FAC;
-    font-weight: 750;
-    margin: 1%;
+.slotText {
+  font-size: 35px;
+  color: #ffcc01;
+  -webkit-text-stroke: 1.5px #365fac;
+  font-weight: 750;
+  margin: 1%;
 }
 
-.buttonDropdown{
-    border: solid 0px;
-    background-color: white;
+.buttonDropdown {
+  border: solid 0px;
+  background-color: white;
 }
 
-.dropDown{
-    opacity: 0;
-    transform: translateY(-10px);
-    display: none;
-    transition: 0.3s;
+.dropDown {
+  opacity: 0;
+  transform: translateY(-10px);
+  display: none;
+  transition: 0.3s;
 }

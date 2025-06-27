@@ -1,0 +1,79 @@
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  padding: 10px;
+}
+
+.textHeader {
+  border-bottom: solid 1px #f0f0f0;
+  padding-bottom: 15px;
+}
+
+.headerButton {
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  border-bottom: solid 1px #f0f0f0;
+  padding-bottom: 10px;
+}
+
+.buttonCharacteristic {
+  border: 0px;
+  background-color: white;
+  margin-left: 30px;
+}
+
+.screenCharacteristic {
+  color: black;
+  display: flex;
+  margin-top: 3%;
+}
+
+.imgPokemon {
+  background-color: #f0f0f0;
+  border-radius: 5%;
+}
+
+.buttonImg {
+  text-align: center;
+}
+
+.buttonDelPokemon {
+  font-size: small;
+  width: 100%;
+  border: none;
+  border-radius: 5%;
+  background-color: blue;
+  color: white;
+  padding: 3%;
+  margin-top: 3%;
+}
+
+.characteristic {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.onlyCharacteristics {
+  width: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.textCharacteristic {
+  font-weight: bold;
+}
