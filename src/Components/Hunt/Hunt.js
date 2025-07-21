@@ -1,7 +1,7 @@
 import styledSecondary from "../MyPokemons/MyPokemons.module.css";
 import styledBase from "./Hunt.module.css";
-import myImage5 from "../img/image5.png";
-import myImage8 from "../img/image8.png";
+import PatchDown from "../../img/PatchDown.png";
+import PatchUp from "../../img/PatchUp.png";
 import { useState } from "react";
 
 export function Hunt() {
@@ -16,7 +16,7 @@ export function Hunt() {
             className={styledSecondary.buttonDropdown}
             onClick={() => setOpen(!isOpen)}
           >
-            <img src={isOpen ? myImage5 : myImage8} alt="5"></img>
+            <img src={isOpen ? PatchDown : PatchUp} alt="5"></img>
           </button>
         </div>
       </div>

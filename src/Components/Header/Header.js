@@ -1,14 +1,11 @@
-import styled from "./Header.module.css";
-import myImage1 from "../img/image1.png";
-import myImage2 from "../img/image2.png";
-import myImage3 from "../img/image3.png";
 import { useDispatch, useSelector } from "react-redux";
+import styled from "./Header.module.css";
+import PokemonLogo from "../../img/PokemonLogo.png";
+import Clicker from "../../img/Clicker.png";
+import Coin from "../../img/Coin.png";
+import { CoinBalance } from "../../Store/CoinBalance.js";
 
-const defaulState = {
-  cash: 100500,
-};
-
-export const reducerLogo = (state = defaulState, action) => {
+export const reducerLogo = (state = CoinBalance, action) => {
   switch (action.type) {
     case "PLUS_BALANCE":
       return { ...state, cash: state.cash + action.payload };
@@ -19,7 +16,10 @@ export const reducerLogo = (state = defaulState, action) => {
   }
 };
 
-export function Logo() {
+export function Header() {
+  const dispatch = useDispatch();
+  const cash = useSelector((state) => state.cash);
+
   const plusCash = () => {
     dispatch({ type: "PLUS_BALANCE", payload: 1000 });
   };
@@ -28,19 +28,16 @@ export function Logo() {
     dispatch({ type: "MINUS_BALANCE", payload: 1000 });
   };
 
-  const dispatch = useDispatch();
-  const cash = useSelector((state) => state.cash);
-
   return (
     <div className={styled.container}>
       <div>
-        <img src={myImage1} alt="1" />
+        <img src={PokemonLogo} alt="1" />
       </div>
       <div>
-        <img src={myImage2} alt="2" />
+        <img src={Clicker} alt="2" />
       </div>
       <div className={styled.logoMoney}>
-        <img src={myImage3} alt="3" />
+        <img src={Coin} alt="3" />
       </div>
       <div className={styled.money}>{cash}</div>
       <div>
